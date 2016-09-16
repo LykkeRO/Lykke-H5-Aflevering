@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Style/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <a href="Search.html" class="btn btn-default soeg">Søg</a>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><h4><span class="glyphicon glyphicon-plus-sign"></span> Opret event</h4> </a></li>
+                    <li><a href="#"><h4>Log ind / opret</h4></a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <div class="imgtop">
+
+                <img src="Image/KvindeMedGuitar.jpg" class="img-responsive opacity" alt="Responsive image" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <form action="Search.html" method="get">
+                    <div class="input-group soegeboks">
+                        <input type="text" name="name" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default soegfelt" type="submit">Søg</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <div class="container" id="KategoriEmner">
+                <div class="row">
+                    <div class="col-md-12"></div>
+                <!--<div class="knapper">
+                    <ul>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Musik</button></li>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Mad</button></li>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Underholdning</button></li>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Natteliv</button></li>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Teater</button></li>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Kunst</button></li>
+                    </ul>
+                    <ul>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Sport</button></li>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Outdoor</button></li>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Foredrag</button></li>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Kurser</button></li>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Velgørenhed</button></li>
+                        <li><button type="button" class="btn btn-default btn-sm knap">Andet</button></li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="Cat">
+        <!--<div class="row">
+            <div class="col-md-6 Musik"><p>Musik</a></div>
+            <div class="col-md-6 sealle"><a href="#">Se alle</a></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse"><img src="Image/underbilledetrumpet.jpg" class="img-responsive" alt="Responsive image" /></div>
+                    <h5><b><a href="#">YOB + Black Cobra</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Musik</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse"><img src="Image/underbilleder.jpg" class="img-responsive" alt="Responsive image" /></div>
+                    <h5><b><a href="#">Festival of Endless Gratitude 2016</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Musik</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse">
+                        <img src="Image/underbilledeKoncert.jpg" class="img-responsive" alt="Responsive image" />
+                    </div>
+                    <h5><b><a href="#">The Warlocks// USA //</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Musik</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse">
+                        <img src="Image/underbilledeDJ.jpg" class="img-responsive" alt="Responsive image" />
+                    </div><h5><b><a href="#">UDE AF KONTROL @ RUST</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Musik</a></p>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-6 Musik"><p>Mad</div>
+            <div class="col-md-6 sealle"><a href="#">Se alle</a></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse"><img src="Image/Pizzaunderbillede.jpg" class="img-responsive" alt="Responsive image" /></div>
+                    <h5><b><a href="#">Pizza</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Mad</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse"><img src="Image/Burgerunderbillede.jpg" class="img-responsive" alt="Responsive image" /></div>
+                    <h5><b><a href="#">Burger</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Mad</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse">
+                        <img src="Image/Teunderbillede.jpg" class="img-responsive" alt="Responsive image" />
+                    </div>
+                    <h5><b><a href="#">Tea</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Mad</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse">
+                        <img src="Image/Dessertunderbillede.jpg" class="img-responsive" alt="Responsive image" />
+                    </div><h5><b><a href="#">Dessert</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Mad</a></p>
+                </div>
+            </div>
+        </div>-->
+    </div>
+
+    <div class="container">
+        <div class="page-header">
+            <div class="imgMidt">
+                <img src="Image/DJ.jpg" class="img-responsive" alt="Responsive image" />
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 Musik"><p>Det Søde Liv</div>
+            <div class="col-md-6 sealle"><a href="#">Se alle</a></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse"><img src="Image/Hindbærunderbillede.jpg" class="img-responsive" alt="Responsive image" /></div>
+                    <h5><b><a href="#">Hindbær</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Mad</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse"><img src="Image/Kage2underbillede.jpg" class="img-responsive" alt="Responsive image" /></div>
+                    <h5><b><a href="#">Kage</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Mad</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse">
+                        <img src="Image/kageunderbillede.jpg" class="img-responsive" alt="Responsive image" />
+                    </div>
+                    <h5><b><a href="#">Brownie</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Mad</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse">
+                        <img src="Image/Cookiesunderbillede.jpg" class="img-responsive" alt="Responsive image" />
+                    </div><h5><b><a href="#">Cookies</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Mad</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="page-header">
+            <div class="imgMidt">
+                <img src="Image/himmel.jpg" class="img-responsive" alt="Responsive image" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 Musik"><p>Sport</div>
+            <div class="col-md-6 sealle"><a href="#">Se alle</a></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse"><img src="Image/løb.jpg" class="img-responsive" alt="Responsive image" /></div>
+                    <h5><b><a href="#">Løb</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Sport</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse"><img src="Image/løb2.jpg" class="img-responsive" alt="Responsive image" /></div>
+                    <h5><b><a href="#">Spurt</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Sport</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse">
+                        <img src="Image/bold.jpg" class="img-responsive" alt="Responsive image" />
+                    </div>
+                    <h5><b><a href="#">Baseball</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Sport</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bokse">
+                    <div class="imgbokse">
+                        <img src="Image/klatre.jpg" class="img-responsive" alt="Responsive image" />
+                    </div><h5><b><a href="#">klatre</a></b></h5>
+
+                    <p>København</p>
+                    <hr />
+                    <p><a href="#">Sport</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="FindVenner">
+                    <h4>Find dine venner og opdag flere events som i kan tage til, sammen.</h4>
+                    <p>Se hvad dine venner laver, del dine køb, og planlæg arrangementer sammen.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="FbFort">
+                    <img src="Image/facebookforsæt.png" />
+                    <p>Vi vil aldrig poste noget på Facebook uden din tilladelse.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <br />
+    <div class="footer"><hr /></div>
+    <div class="baggrund2"> 
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="Arrangører">
+                        <h2>Til arrangører</h2>
+                        <p>Sælg billetter online</p>
+                        <p>Alternativt billetsystem</p>
+                        <p>Event registrering</p>
+                        <p>Event management</p>
+                        <p>Event planlægning</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="Arrangører">
+                        <h2>Support</h2>
+                        <p>Billetto Support</p>
+                        <p>Hjælp til billetkøb</p>
+                        <p>Hjælp til eventoprettelse</p>
+                        <p>Priser</p>
+                        <p>Køb gavekort</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="Arrangører">
+                        <h2>Billetto i Norden</h2>
+                        <p>Sverige</p>
+                        <p>Norge</p>
+                        <p>Finland</p>
+                        <p>Danmark</p>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="Arrangører">
+                        <h2>Billetto i Europa</h2>
+                        <p>Storbritannien</p>
+                        <p>Tyskland</p>
+                        <p>Italien</p>
+                        <p>Irland</p>
+                        <p>Holland</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/scripts.js"></script>
+</body>
+</html>

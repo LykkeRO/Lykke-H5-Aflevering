@@ -1,0 +1,336 @@
+﻿body {
+   
+}
+
+.navbar-default {
+    background-color: black;
+    border-color: black;
+    opacity: 0.8;
+    border-radius: 0px;
+}
+
+.glyphicon-shopping-cart {
+    font-size: 30px;
+}
+
+h6 {
+    font-size: 12px;
+    color: lightgray;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.linkbokse {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: -10px;
+}
+
+hr {
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.roundimg {
+    border-radius: 10px;
+}
+
+h5 {
+    font-size: 13px;
+    padding: 10px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.glyphicon-plus-sign {
+    color: darkorange;
+}
+
+.page-header {
+    margin-top: 60px;
+    border-bottom: none;
+}
+
+.img-responsive {
+    margin: auto;
+    border-radius: 3px;
+    width: 100%;
+    position: relative;
+}
+
+.opacity {
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.imgtop {
+    text-align: center;
+}
+
+.navbar-form {
+    padding-top: 10px;
+}
+
+.bokse {
+    height: 340px;
+    max-width: 250px;
+    border: solid 1px #eeeeee;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 0 0.2px;
+}
+
+.img-rounded {
+    border-radius: 5px;
+}
+
+.knapper {
+    text-align: center;
+    margin-top: -120px;
+}
+
+.knap {
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: -5px;
+    width: 130px;
+    background-color: transparent;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.soeg {
+    color: darkgray;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+}
+
+.form-control {
+    margin-top: -200px;
+    border-radius: 0;
+}
+
+.soegfelt {
+    margin-top: -367px;
+    border-radius: 0;
+}
+
+.soegeboks {
+    margin-left: 250px;
+    margin-right: -300px;
+}
+
+
+.Musik p {
+    font-size: 18px;
+    padding-left: 6px;
+    font-weight: 100;
+    color: darkgray;
+    font-weight: 100;
+    font-family: "roboto", sans-sherif;
+}
+
+.sealle a {
+    float: right;
+    padding-right: 8px;
+}
+
+p {
+    font-size: 13px;
+    color: lightgray;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.FindVenner {
+    min-height: 250px;
+    background-color: #eeeeee;
+    border: solid 1px darkgray;
+}
+
+    .FindVenner h4 {
+        color: darkgray;
+        padding-top: 60px;
+        padding-left: 50px;
+        font-family: "roboto", sans-sherif;
+        font-weight: lighter;
+    }
+
+    .FindVenner p {
+        font-size: 16px;
+        font-family: "roboto", sans-sherif;
+        font-weight: lighter;
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+
+.FbFort {
+    text-align: center;
+    padding-top: 70px;
+    border: solid 1px darkgray;
+    min-height: 250px;
+}
+
+    .FbFort p {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+.Arrangører h2 {
+    padding-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+}
+
+li {
+    float: left;
+   margin-left: 25px;
+   padding: 5px; 
+}
+
+li a {
+   
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container-fluid{
+
+    padding: 0;
+    margin: 0; 
+
+}
+
+.billede{
+
+    max-width: 100%;
+   z-index: 1;
+
+}
+
+.overskrift{
+
+    z-index: 2; 
+}
+
+.overskrift h1{
+  font-size: 40px; 
+  color: white;
+  position: absolute;
+  bottom:25px; 
+  left:21%;
+  font-family: "roboto", sans-sherif;
+  font-weight: lighter;
+       
+      
+}
+
+.navbar{
+
+    margin-bottom:0; 
+}
+
+.baggrund{
+
+    background-color:#f7f7f7;
+
+}
+
+.glyphicon-calender{
+   font-size: 16px; 
+   font-family: Verdana;
+   color: black;  
+  
+
+
+}
+
+.icon{
+
+    color: darkgrey; 
+     font-family: "roboto", sans-sherif;
+     font-size: 16px; 
+    padding-top: 10px; 
+}
+
+.Sted{
+    margin-top: 20px; 
+
+}
+
+.Sted hr{
+    width: 100%; 
+}
+
+.Linkforside{
+  position: absolute;
+  bottom:50px; 
+  right:28%;
+  font-family: "roboto", sans-sherif;
+  font-weight: lighter;
+  width: 300px;
+  height: 50px; 
+  padding-top: 10px;  
+  background-color: #fd7f0b;
+  color: white; 
+  font-size: 20px;
+  border: solid 0px;  
+}
+
+
+.baggrund2{
+    background-color: white; 
+    padding-top: 40px; 
+}
+
+.kort hr{
+    width: 100%; 
+}
+
+.beskrivelse{
+
+    margin-top:-1px; 
+}
+
+.knapperSearch{
+
+    margin-top: -50px; 
+    margin-bottom: 30px; 
+}
+
+.soegeboksSearch{
+    margin-top: 300px; 
+}
+
+
+.overskriftSearch h1{
+      font-size: 20px; 
+  color: darkgrey;
+  font-family: "roboto", sans-sherif;
+  font-weight: lighter;
+
+}
+
+.footer hr{
+    width: 100%; 
+    color: black;
+}
